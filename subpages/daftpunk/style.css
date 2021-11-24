@@ -1,0 +1,57 @@
+.background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: #FDEFCC;
+}
+
+.logo {
+    display: flex;
+    position: absolute;
+    width: 20vh;
+    height: 20vh;
+    margin: auto;
+    /* width: 349px;
+    height: 191px;
+    left: calc(50% - 349px/2 - 516.5px);
+    top: calc(50% - 191px/2 - 390.5px); */
+
+    background: #676767;
+}
+
+.selection {
+    position: absolute;
+    height: 80vh;
+    width: 30vh;
+    margin: auto;
+    /* width: 346px;
+    height: 769px; */
+    /* left: calc(50% - 346px/2 - 518px);
+    top: calc(50% - 769px/2 + 89.5px); */
+    background: #676767;
+
+}
+
+.selection a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.selection strong {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.selection a:hover {
+    text-decoration: solid;
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.chords
+{
+    display: flex;
+    justify-content: center;
+}
