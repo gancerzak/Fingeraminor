@@ -1,0 +1,53 @@
+.background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: #FDEFCC;
+}
+
+.logo {
+    display: flex;
+    position: absolute;
+    width: 20vh;
+    height: 20vh;
+    margin: auto;
+    background: #676767;
+}
+
+.selection {
+    position: absolute;
+    height: 80vh;
+    width: 30vh;
+    margin: auto;
+    background: #676767;
+
+}
+
+.selection a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.selection strong {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.selection a:hover {
+    text-decoration: solid;
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.chords
+{
+    display: flex;
+    justify-content: center;
+}
+.songs
+{
+    display: flex;
+    justify-content: flex-end;
+}
