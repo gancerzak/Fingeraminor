@@ -82,68 +82,15 @@ main
     position: absolute;
     width: 80vw;
     top: 12vh;
-    left: 20vw;
-    padding: 20px;
-    text-align: center;
-    font-size: 24px;
+    right: 0;
 }
+
 .chords
 {
     display: flex;
     justify-content: center;
 }
-#dmajor
-{
-    background-color: #595959;
-    color: #ffffff;
-}
-#dmajor:hover
-{
-    background-color: #676767;
-    font-weight: bold;
-}
-#dmajorimg
-{
-    height: auto; 
-    width: auto; 
-    max-width: 200px; 
-    max-height: 200px;
-}
-#dmajordiv
-{
-    top: 12vh;
-    right: 0;
-    display: none;
-    align-items: flex-start;
-    justify-content: right;
-    position: fixed;
-}
-#amajor7
-{
-    background-color: #595959;
-    color: #ffffff;
-}
-#amajor7:hover
-{
-    background-color: #676767;
-    font-weight: bold;
-}
-#amajor7div
-{
-    top: 12vh;
-    right: 0;
-    display: none;
-    align-items: flex-start;
-    justify-content: right;
-    position: fixed;
-}
-#amajor7img
-{
-    height: auto; 
-    width: auto; 
-    max-width: 200px; 
-    max-height: 200px;
-}
+
 #gmajor
 {
     background-color: #595959;
@@ -196,17 +143,17 @@ main
     background-color: #676767;
     font-weight: bold;
 }
-#amajor5
+#aminor
 {
     background-color: #595959;
     color: #ffffff;
 }
-#amajor5:hover
+#aminor:hover
 {
     background-color: #676767;
     font-weight: bold;
 }
-#amajor5div
+#aminordiv
 {
     top: 12vh;
     right: 0;
@@ -215,10 +162,88 @@ main
     justify-content: right;
     position: fixed;
 }
-#amajor5img
+#aminorimg
 {
     height: auto; 
     width: auto; 
     max-width: 200px; 
     max-height: 200px;
+}
+#cmajordiv
+{
+    top: 12vh;
+    right: 0;
+    display: none;
+    align-items: flex-start;
+    justify-content: right;
+    position: fixed;
+}
+#cmajorimg
+{
+    height: auto; 
+    width: auto; 
+    max-width: 200px; 
+    max-height: 200px;
+}
+#cmajor
+{
+    background-color: #595959;
+    color: #ffffff;
+}
+#cmajor:hover
+{
+    background-color: #676767;
+    font-weight: bold;
+}
+#dmajordiv
+{
+    top: 12vh;
+    right: 0;
+    display: none;
+    align-items: flex-start;
+    justify-content: right;
+    position: fixed;
+}
+#dmajorimg
+{
+    height: auto; 
+    width: auto; 
+    max-width: 200px; 
+    max-height: 200px;
+}
+#dmajor
+{
+    background-color: #595959;
+    color: #ffffff;
+}
+#dmajor:hover
+{
+    background-color: #676767;
+    font-weight: bold;
+}
+#bmajordiv
+{
+    top: 12vh;
+    right: 0;
+    display: none;
+    align-items: flex-start;
+    justify-content: right;
+    position: fixed;
+}
+#bmajorimg
+{
+    height: auto; 
+    width: auto; 
+    max-width: 200px; 
+    max-height: 200px;
+}
+#bmajor
+{
+    background-color: #595959;
+    color: #ffffff;
+}
+#bmajor:hover
+{
+    background-color: #676767;
+    font-weight: bold;
 }

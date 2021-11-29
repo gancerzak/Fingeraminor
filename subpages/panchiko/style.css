@@ -82,68 +82,15 @@ main
     position: absolute;
     width: 80vw;
     top: 12vh;
-    left: 20vw;
-    padding: 20px;
-    text-align: center;
-    font-size: 24px;
+    right: 0;
 }
+
 .chords
 {
     display: flex;
     justify-content: center;
 }
-#dmajor
-{
-    background-color: #595959;
-    color: #ffffff;
-}
-#dmajor:hover
-{
-    background-color: #676767;
-    font-weight: bold;
-}
-#dmajorimg
-{
-    height: auto; 
-    width: auto; 
-    max-width: 200px; 
-    max-height: 200px;
-}
-#dmajordiv
-{
-    top: 12vh;
-    right: 0;
-    display: none;
-    align-items: flex-start;
-    justify-content: right;
-    position: fixed;
-}
-#amajor7
-{
-    background-color: #595959;
-    color: #ffffff;
-}
-#amajor7:hover
-{
-    background-color: #676767;
-    font-weight: bold;
-}
-#amajor7div
-{
-    top: 12vh;
-    right: 0;
-    display: none;
-    align-items: flex-start;
-    justify-content: right;
-    position: fixed;
-}
-#amajor7img
-{
-    height: auto; 
-    width: auto; 
-    max-width: 200px; 
-    max-height: 200px;
-}
+
 #gmajor
 {
     background-color: #595959;
@@ -196,17 +143,17 @@ main
     background-color: #676767;
     font-weight: bold;
 }
-#amajor5
+#amajor
 {
     background-color: #595959;
     color: #ffffff;
 }
-#amajor5:hover
+#amajor:hover
 {
     background-color: #676767;
     font-weight: bold;
 }
-#amajor5div
+#amajordiv
 {
     top: 12vh;
     right: 0;
@@ -215,10 +162,62 @@ main
     justify-content: right;
     position: fixed;
 }
-#amajor5img
+#amajorimg
 {
     height: auto; 
     width: auto; 
     max-width: 200px; 
     max-height: 200px;
+}
+#emajordiv
+{
+    top: 12vh;
+    right: 0;
+    display: none;
+    align-items: flex-start;
+    justify-content: right;
+    position: fixed;
+}
+#emajorimg
+{
+    height: auto; 
+    width: auto; 
+    max-width: 200px; 
+    max-height: 200px;
+}
+#emajor
+{
+    background-color: #595959;
+    color: #ffffff;
+}
+#emajor:hover
+{
+    background-color: #676767;
+    font-weight: bold;
+}
+#amaj7div
+{
+    top: 12vh;
+    right: 0;
+    display: none;
+    align-items: flex-start;
+    justify-content: right;
+    position: fixed;
+}
+#amaj7img
+{
+    height: auto; 
+    width: auto; 
+    max-width: 200px; 
+    max-height: 200px;
+}
+#amaj7
+{
+    background-color: #595959;
+    color: #ffffff;
+}
+#amaj7:hover
+{
+    background-color: #676767;
+    font-weight: bold;
 }
